@@ -1,0 +1,42 @@
+img{
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.perfilMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nomePerfil{
+    font-size: 2em;
+    margin-top: 20px;
+    display: block;
+}
+
+.areas{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.areaAtuacaoTitulo{
+display: block;
+}
+
+.areasDescricao{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 10px 30px;
+    margin-top: .5em;
+    display: block;
+}
+
+.areaAtuacaoLinha{
+    display: block;
+    line-height: 1.5;
+}

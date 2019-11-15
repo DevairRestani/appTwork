@@ -1,0 +1,171 @@
+
+html, body, #root{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background: rgb(1,0,25);
+    background: white;
+}
+
+body, input, button {
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.center{
+    margin-top: 50%; 
+
+}
+
+.formOption p{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.formOption select{
+    margin-bottom: 15px;
+    font-size: 16px;
+    height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+}
+
+.content{
+    /* width: 100%; */
+    background: #FFF;
+    /* margin-top: 50px; */
+    /* border-radius: 5px; */
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content > h1{
+    font-size: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 20px;
+    margin-top:20px;
+    padding-top: 10px;
+}
+
+/* .container > img{
+    width: 50px;
+    height: 50px
+} */
+
+.content form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content form label{
+    font-size: 15px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.content form input{
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    height: 40px;
+    padding: 0 15px;
+    font-size: 15px
+}
+
+.content form div section select {
+    height: 50%;
+    width: 60px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+}
+
+.content form div{
+    display: flex;
+    flex-direction: row;
+}
+
+.content form div section{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputCity{
+    /* margin-bottom: 15px; */
+    margin-right: 5px;
+    /* border: 1px solid #ddd;
+    border-radius: 2px; */
+    width: 75%;
+     /* height: 40px; */
+    
+    /* padding: 0 15px;
+    font-size: 12px */
+}
+
+/* .inputEstado{
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    width:30px;
+    height: 30%;
+    padding: 0 15px;
+    font-size: 12px
+} */
+
+.content button.btn{
+    margin-bottom: 20px;
+    border: 0;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+  
+    padding: 0 20px;
+    font-size: 15px;
+    font-weight: bold;
+    background: #CDC9C9;
+    color: #fff;
+    cursor: pointer;
+}
+
+.content button.btn:hover{
+    background: #87CEFA
+}
+
+.btn-default{
+    background: #CDC9C9;
+    color: #fff;
+}
+
+.content button.btn2{
+    border: 0;
+    font-size: 15px;
+    background: none;
+    font-weight: bold;  
+    cursor: pointer;       
+}
+
+.content button.btn2:hover{
+    color: #87CEFA
+}
+
+.content img.perfil{
+    border: 1px solid;
+    border-radius: 50px;
+}
+
+.nivel{
+    margin-bottom: 15px
+}
