@@ -31,6 +31,7 @@ class User extends Model {
 
   static associate(models) {
     this.belongsTo(models.File, { foreignKey: 'avatar_id', as: 'avatar' });
+    this.hasMany(models.Has, { foreignKey: 'id_entity', as: 'entity' });
     this.hasMany(models.Job, { foreignKey: 'id_company', as: 'vacancies' });
   }
 
